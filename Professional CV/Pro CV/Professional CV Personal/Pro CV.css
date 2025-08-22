@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121111;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+	
+}
+
+body {
+    background-image: url('Cyber City 4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details li, .experience li, .education li, .certifications li {
+    margin-bottom: 5px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.details li::before, .experience li::before, .education li::before, .certifications li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 6px;
+    width: 6px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.details li label, .section li b {
+    font-weight: bold;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 15px;
+    }
+}
